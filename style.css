@@ -41,8 +41,10 @@ body {
 .total {
 }
 
-a {
+a:link,
+a:visited {
   cursor: pointer;
+  color: #222;
 }
 header {
   padding: 4.8rem;
